@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+.game-box {
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+}
+
+.game-box div {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000;
+}
+
+.green {
+	background: green;
+}
+
+.red {
+	background: red;
+}
+
+.game-box div.good-clicked {
+	border: 10px solid dodgerblue;
+}
+
+.game-box div.bad-clicked {
+	border: 10px solid black;
+}
